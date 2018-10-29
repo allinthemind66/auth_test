@@ -17,7 +17,16 @@ gem 'puma', '~> 3.7'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
+
+gem 'jwt'
+
+
+# The simple command gem is an easy way to create services.
+#Its role is similar to the role of a helper, but it instead facilitates the connection
+#between the controller and the model, rather than the controller and the view. In this way,
+#we can shorten the code in the models and controllers.
+gem 'simple_command'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

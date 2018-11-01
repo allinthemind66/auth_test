@@ -23,9 +23,9 @@ gem 'jwt'
 
 
 # The simple command gem is an easy way to create services.
-#Its role is similar to the role of a helper, but it instead facilitates the connection
-#between the controller and the model, rather than the controller and the view. In this way,
-#we can shorten the code in the models and controllers.
+# Its role is similar to the role of a helper, but it instead facilitates the connection
+# between the controller and the model, rather than the controller and the view. In this way,
+# we can shorten the code in the models and controllers.
 gem 'simple_command'
 
 # Use Capistrano for deployment

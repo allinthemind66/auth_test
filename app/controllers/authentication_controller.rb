@@ -1,6 +1,6 @@
 class AuthenticationController < ApplicationController
   skip_before_action :authenticate_request
-
+###LOGING IN USERS
  def authenticate
    command = AuthenticateUser.call(params[:email], params[:password])
 

@@ -4,6 +4,8 @@ class ApplicationController < ActionController::API
 
   private
 
+
+#AUTHORIZING REQUESTS AFTER USER IS LOGGED IN
   def authenticate_request
     @current_user = AuthorizeApiRequest.call(request.headers).result
     render json: { error: 'Not Authorized' }, status: 401 unless @current_user
